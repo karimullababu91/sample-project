@@ -1,0 +1,22 @@
+pipeline {
+  agent any 
+
+  environment {
+    DEPLOY_USER = "ec2-user"
+    DEPLOY_HOST = "44.246.134.43"
+    DEPLOY_PATH = "/var/lib/jenkins/webapps"
+    ARTIFACT_NAME = "works-with-heroku-1.0.war"
+  }
+  stages {
+    stage('checkout') {
+      steps {
+      
+      }
+    }
+
+
+  }
+
+
+
+}
